@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./funciones.js"></script>
+  <link rel="stylesheet" href="estilos2.css"/ >
+</head>
+<body>
+  <div class="contenedor">
+  <a class="boton" href="./index.html" target="_self" <li> Regresar</li></a> 
+  <header>
+    <h2> PAGINA DE INTERACCION  </h1>
+  </header>
+
+  <form class="formulario">
+    <span>
+      Correo electronico:  <input type="text" placeholder="Ingrese su correo " required>
+    </span>
+    <br>
+    <br>
+  
+    <span>
+      Modelo : <select id="modelo">
+        <option value = " " selected = "selected" hidden="hidden"></option>
+         <option value="1" name="opcion">Modelo 1</option>
+         <option value="2"name="opcion">Modelo 2</option>
+      
+         </select>
+    </span><br>
+    <br>
+
+
+    <span>
+      Talle : 
+      <span> 38</span>
+        <input type="checkbox" id="38" name="opcion" >
+        <span>39 </span>
+        <input type="checkbox" id="39" name="opcion" >
+        <span>40</span>
+        <input type="checkbox" id="40" name="opcion" >
+      <br>
+      <br>
+
+
+    <span>
+      Forma de retiro :  
+  
+      Con envio  <input type="checkbox" id="envio">
+      En el local  <input type="checkbox" id="local">
+      </span><br>
+      <br>
+
+      <button type="button" onclick="calcular()"> CALCULAR</button>
+      <button type="button" onclick="borrar()"> borrar</button>
+
+  </form>
+  <div id="resultado"></div>
+  </div>
+</body>
+</html>

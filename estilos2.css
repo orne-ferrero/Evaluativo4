@@ -1,0 +1,30 @@
+h2{
+  text-align: center;
+}
+.contenedor{
+  width:80%;
+  margin:0 auto;
+  overflow: hidden;
+  max-width: 1000px;
+}
+body{
+  background-color: rgb(176, 176, 176);
+}
+header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+  }
+.formulario{
+  text-align: center;
+}
+
+  
+  @media screen and (max-width: 800px){
+    body{
+      .contenedor
+    }
+  }
+   
